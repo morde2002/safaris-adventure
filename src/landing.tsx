@@ -1,6 +1,7 @@
 'use client'
 import React from 'react';
 import { useState } from 'react';
+import Image from 'next/image';
 
 // Define interfaces for type safety
 interface Service {
@@ -31,7 +32,6 @@ interface Testimonial {
 }
 
 const SafariAdventures = () => {
-  const [activeTab, setActiveTab] = useState('services');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedService, setSelectedService] = useState<string>('');
   const [currentImageIndex, setCurrentImageIndex] = useState<{[key: number]: number}>({});
@@ -77,7 +77,7 @@ const SafariAdventures = () => {
       icon: "flower1",
       category: "ceremonies",
       images: [
-        "https://images.unsplash.com/photo-1507003211170-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
         "https://images.unsplash.com/photo-1494976688153-d4ac80a96629?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ]
     },
@@ -465,7 +465,7 @@ ${name}`;
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Our Services</h2>
             <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto mb-6"></div>
             <p className="max-w-3xl mx-auto text-xl text-gray-600">
-              Comprehensive road transport services tailored to meet your every need. From celebrations to adventures, we've got you covered.
+              Comprehensive road transport services tailored to meet your every need. From celebrations to adventures, we&apos;ve got you covered.
             </p>
           </div>
           
@@ -475,10 +475,11 @@ ${name}`;
                 {/* Image Carousel */}
                 <div className="relative mb-4 rounded-lg overflow-hidden">
                   <div className="aspect-[4/3] relative">
-                    <img 
+                    <Image 
                       src={service.images[currentImageIndex[service.id] || 0]}
                       alt={`${service.title} - Image ${(currentImageIndex[service.id] || 0) + 1}`}
-                      className="w-full h-full object-cover transition-opacity duration-300"
+                      fill
+                      className="object-cover transition-opacity duration-300"
                     />
                     
                     {/* Navigation buttons - only show if more than 1 image */}
@@ -635,7 +636,7 @@ ${name}`;
                 </div>
                 
                 <p className="text-sm text-gray-500 text-center">
-                  * Required fields. You'll be redirected to WhatsApp or Email with your booking details.
+                  * Required fields. You&apos;ll be redirected to WhatsApp or Email with your booking details.
                 </p>
               </div>
             </div>
@@ -673,7 +674,7 @@ ${name}`;
                 <i className="bi bi-clock-fill text-3xl text-white"></i>
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">24/7 Availability</h3>
-              <p className="text-gray-600 leading-relaxed">Road services anywhere, anytime. We're available round the clock to meet your transportation needs.</p>
+              <p className="text-gray-600 leading-relaxed">Road services anywhere, anytime. We&apos;re available round the clock to meet your transportation needs.</p>
             </div>
           </div>
         </div>
@@ -702,7 +703,7 @@ ${name}`;
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-700 italic mb-6 text-lg leading-relaxed">"{testimonial.quote}"</p>
+                <p className="text-gray-700 italic mb-6 text-lg leading-relaxed">&ldquo;{testimonial.quote}&rdquo;</p>
                 <div>
                   <p className="font-bold text-gray-900">{testimonial.name}</p>
                   <p className="text-indigo-600 text-sm">{testimonial.service}</p>
@@ -718,7 +719,7 @@ ${name}`;
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Book Your Service?</h2>
           <p className="text-xl max-w-3xl mx-auto mb-8 text-indigo-100">
-            Get in touch with us today for a quote or to make a reservation. We're here to serve you 24/7.
+            Get in touch with us today for a quote or to make a reservation. We&apos;re here to serve you 24/7.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a
