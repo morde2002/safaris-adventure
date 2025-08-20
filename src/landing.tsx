@@ -487,7 +487,7 @@ ${name}`;
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900">Our Services</h2>
             <div className="w-16 sm:w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto mb-4 sm:mb-6"></div>
             <p className="max-w-3xl mx-auto text-base sm:text-lg lg:text-xl text-gray-600 px-4">
-              Comprehensive road transport services tailored to meet your every need. From celebrations to adventures, we've got you covered.
+              Comprehensive road transport services tailored to meet your every need. From celebrations to adventures, we&apos;ve got you covered.
             </p>
           </div>
           
@@ -660,7 +660,7 @@ ${name}`;
                 </div>
                 
                 <p className="text-xs sm:text-sm text-gray-500 text-center px-2">
-                  * Required fields. You'll be redirected to WhatsApp or Email with your booking details.
+                  * Required fields. You&apos;ll be redirected to WhatsApp or Email with your booking details.
                 </p>
               </div>
             </div>
@@ -698,7 +698,7 @@ ${name}`;
                 <i className="bi bi-clock-fill text-2xl sm:text-3xl text-white"></i>
               </div>
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-900">24/7 Availability</h3>
-              <p className="text-gray-600 leading-relaxed text-sm sm:text-base px-2">Road services anywhere, anytime. We're available round the clock to meet your transportation needs.</p>
+              <p className="text-gray-600 leading-relaxed text-sm sm:text-base px-2">Road services anywhere, anytime. We&apos;re available round the clock to meet your transportation needs.</p>
             </div>
           </div>
         </div>
@@ -743,7 +743,7 @@ ${name}`;
         <div className="container mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Ready to Book Your Service?</h2>
           <p className="text-base sm:text-lg lg:text-xl max-w-3xl mx-auto mb-6 sm:mb-8 text-indigo-100 px-4">
-            Get in touch with us today for a quote or to make a reservation. We're here to serve you 24/7.
+            Get in touch with us today for a quote or to make a reservation. We&apos;re here to serve you 24/7.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 lg:space-x-6 max-w-2xl mx-auto">
             <a
