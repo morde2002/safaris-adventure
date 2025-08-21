@@ -72,17 +72,6 @@ const SafariAdventures = () => {
     },
     {
       id: 3,
-      title: "Funeral & Send-off Services",
-      description: "Respectful and dignified transportation during difficult times.",
-      icon: "flower1",
-      category: "ceremonies",
-      images: [
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1494976688153-d4ac80a96629?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-      ]
-    },
-    {
-      id: 4,
       title: "Ruracio Ceremonies",
       description: "Traditional ceremony transport with cultural sensitivity and care.",
       icon: "people-fill",
@@ -94,19 +83,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 5,
-      title: "Birthday Parties",
-      description: "Fun and safe transportation for birthday celebrations of all ages.",
-      icon: "gift-fill",
-      category: "celebrations",
-      images: [
-        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-      ]
-    },
-    {
-      id: 6,
+      id: 4,
       title: "Road Trips",
       description: "Comfortable long-distance travel with experienced drivers.",
       icon: "signpost-fill",
@@ -118,7 +95,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 7,
+      id: 5,
       title: "Camping Adventures",
       description: "Transport to camping sites with equipment handling capabilities.",
       icon: "tree-fill",
@@ -130,7 +107,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 8,
+      id: 6,
       title: "Airport Transfers",
       description: "Reliable pickup and drop-off services to/from airports.",
       icon: "airplane-fill",
@@ -142,7 +119,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 9,
+      id: 7,
       title: "Graduation Events",
       description: "Celebrate academic achievements with professional transport services.",
       icon: "mortarboard-fill",
@@ -154,7 +131,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 10,
+      id: 8,
       title: "Vacation Transport",
       description: "Holiday transportation to make your vacation stress-free.",
       icon: "umbrella-fill",
@@ -166,7 +143,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 11,
+      id: 9,
       title: "Private Parties",
       description: "Exclusive transport for private events and gatherings.",
       icon: "balloon-fill",
@@ -178,7 +155,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 12,
+      id: 10,
       title: "Weekend Getaways",
       description: "Quick escapes made easy with comfortable transport solutions.",
       icon: "sunrise-fill",
@@ -190,7 +167,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 13,
+      id: 11,
       title: "Hiking Events",
       description: "Transport to hiking destinations with gear accommodation.",
       icon: "geo-alt-fill",
@@ -202,7 +179,7 @@ const SafariAdventures = () => {
       ]
     },
     {
-      id: 14,
+      id: 12,
       title: "National Parks & Game Drives",
       description: "Wildlife viewing trips with knowledgeable local guides.",
       icon: "binoculars-fill",
@@ -280,7 +257,7 @@ Please confirm availability and provide a quote.
 
 Thank you!`;
 
-    const whatsappUrl = `https://wa.me/254702308649?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/254780253855?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     // Close modal after booking
@@ -389,7 +366,7 @@ ${name}`;
             
             {/* CTA Buttons - Hidden on mobile, shown on larger screens */}
             <div className="hidden lg:flex space-x-3">
-              <a href="https://wa.me/254702308649" target="_blank" className="bg-green-500 hover:bg-green-600 text-white px-3 lg:px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 text-sm">
+              <a href="https://wa.me/254780253855" target="_blank" className="bg-green-500 hover:bg-green-600 text-white px-3 lg:px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 text-sm">
                 <i className="bi bi-whatsapp"></i>
                 <span>WhatsApp</span>
               </a>
@@ -418,7 +395,7 @@ ${name}`;
                 <a href="#contact" className="block py-2 px-2 text-gray-700 hover:text-indigo-600 hover:bg-gray-50 rounded transition-colors">Contact</a>
               </div>
               <div className="mt-4 space-y-2">
-                <a href="https://wa.me/254702308649" target="_blank" className="block bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-lg font-medium text-center flex items-center justify-center space-x-2">
+                <a href="https://wa.me/254780253855" target="_blank" className="block bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-lg font-medium text-center flex items-center justify-center space-x-2">
                   <i className="bi bi-whatsapp"></i>
                   <span>WhatsApp</span>
                 </a>
@@ -468,7 +445,7 @@ ${name}`;
                 Explore Services
               </button>
               <a
-                href="https://wa.me/254702308649"
+                href="https://wa.me/254780253855"
                 target="_blank"
                 className="border-2 border-white hover:bg-white hover:text-indigo-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-medium text-base sm:text-lg transition-all text-center flex items-center justify-center space-x-2"
               >
@@ -747,19 +724,19 @@ ${name}`;
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 lg:space-x-6 max-w-2xl mx-auto">
             <a
-              href="https://wa.me/254702308649"
+              href="https://wa.me/254780253855"
               target="_blank"
               className="bg-green-500 hover:bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-medium text-base sm:text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center justify-center space-x-2"
             >
               <i className="bi bi-whatsapp text-lg sm:text-xl"></i>
-              <span className="whitespace-nowrap">WhatsApp: 0702308649</span>
+              <span className="whitespace-nowrap">WhatsApp: 0780253855</span>
             </a>
             <a
-              href="tel:+254780253855"
+              href="tel:+254702308649"
               className="bg-blue-500 hover:bg-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-medium text-base sm:text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center justify-center space-x-2"
             >
               <i className="bi bi-telephone-fill text-lg sm:text-xl"></i>
-              <span className="whitespace-nowrap">Call: 0780253855</span>
+              <span className="whitespace-nowrap">Call: 0702308649</span>
             </a>
           </div>
         </div>
@@ -781,7 +758,7 @@ ${name}`;
                 We are the best road servers anywhere anytime. Customer comfort and demand is our priority. Professional transportation services for all your needs.
               </p>
               <div className="flex space-x-4">
-                <a href="https://wa.me/254702308649" target="_blank" className="text-green-400 hover:text-green-300 transition-colors">
+                <a href="https://wa.me/254780253855" target="_blank" className="text-green-400 hover:text-green-300 transition-colors">
                   <i className="bi bi-whatsapp text-xl sm:text-2xl"></i>
                 </a>
                 <a href="tel:+254702308649" className="text-blue-400 hover:text-blue-300 transition-colors">
