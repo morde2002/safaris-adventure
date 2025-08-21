@@ -53,9 +53,12 @@ const SafariAdventures = () => {
       icon: "heart-fill",
       category: "celebrations",
       images: [
-        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/wedding1.jpg",
+        "/wedding2.jpg",
+        "/wedding3.jpg",
+        "/wedding4.jpg",
+        "/wedding5.jpg",
+        "/wedding6.jpg"
       ]
     },
     {
@@ -65,9 +68,12 @@ const SafariAdventures = () => {
       icon: "truck",
       category: "transport",
       images: [
-        "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/vehicle2.jpg",
+        "/vehicle3.jpg",
+        "/vehicle4.jpg",
+        "/vehicle5.jpg",
+        "/vehicle6.jpg",
+        "/vehicle7.jpg"
       ]
     },
     {
@@ -77,9 +83,12 @@ const SafariAdventures = () => {
       icon: "people-fill",
       category: "ceremonies",
       images: [
-        "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1529636798458-92182e662485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1583391733956-6c78276477e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/ceremony1.jpg",
+        "/ceremony2.jpg",
+        "/ceremony3.jpg",
+        "/ceremony4.jpg",
+        "/ceremony5.jpg",
+        "/ceremony6.jpg"
       ]
     },
     {
@@ -89,9 +98,8 @@ const SafariAdventures = () => {
       icon: "signpost-fill",
       category: "adventure",
       images: [
-        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/road-trip.jpg",
+        "/road-trip2.jpg"
       ]
     },
     {
@@ -101,9 +109,9 @@ const SafariAdventures = () => {
       icon: "tree-fill",
       category: "adventure",
       images: [
-        "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1445308394109-4ec2920981b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/camp1.jpg",
+        "/camp2.jpg",
+        "/camp3.jpg"
       ]
     },
     {
@@ -113,81 +121,71 @@ const SafariAdventures = () => {
       icon: "airplane-fill",
       category: "transport",
       images: [
-        "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1474302770737-173ee21bab63?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/airport1.jpg",
+        "/airport2.jpg",
+        "/airport3.jpg"
       ]
     },
     {
       id: 7,
-      title: "Graduation Events",
-      description: "Celebrate academic achievements with professional transport services.",
-      icon: "mortarboard-fill",
-      category: "celebrations",
-      images: [
-        "https://images.unsplash.com/photo-1523050854058-8df90110c9d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1549057446-9f5c6ac91a04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-      ]
-    },
-    {
-      id: 8,
       title: "Vacation Transport",
       description: "Holiday transportation to make your vacation stress-free.",
       icon: "umbrella-fill",
       category: "leisure",
       images: [
-        "https://images.unsplash.com/photo-1520637836862-4d197d17c23a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/vacation1.jpg",
+        "/vacation2.jpg"
       ]
     },
     {
-      id: 9,
+      id: 8,
       title: "Private Parties",
       description: "Exclusive transport for private events and gatherings.",
       icon: "balloon-fill",
       category: "celebrations",
       images: [
-        "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1505236858219-8359eb29e329?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/private-party1.jpg",
+        "/private-party2.jpg"
       ]
     },
     {
-      id: 10,
+      id: 9,
       title: "Weekend Getaways",
       description: "Quick escapes made easy with comfortable transport solutions.",
       icon: "sunrise-fill",
       category: "leisure",
       images: [
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1497436072909-f5e4be1f2562?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/gateaway1.jpg",
+        "/gateaway2.jpg"
       ]
     },
     {
-      id: 11,
+      id: 10,
       title: "Hiking Events",
       description: "Transport to hiking destinations with gear accommodation.",
       icon: "geo-alt-fill",
       category: "adventure",
       images: [
-        "https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1464822759844-d150baec93d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/hiking1.jpg",
+        "/hiking2.jpg",
+        "/hiking3.jpg",
+        "/hiking4.jpg",
+        "/hiking5.jpg",
+        "/hiking6.jpg"
       ]
     },
     {
-      id: 12,
+      id: 11,
       title: "National Parks & Game Drives",
       description: "Wildlife viewing trips with knowledgeable local guides.",
       icon: "binoculars-fill",
       category: "adventure",
       images: [
-        "https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        "/national-park1.jpg",
+        "/national-park2.jpg",
+        "/national-park3.jpg",
+        "/national-park4.jpg",
+        "/national-park5.jpg"
       ]
     }
   ];
@@ -337,7 +335,11 @@ ${name}`;
           <div className="flex items-center justify-between">
             {/* Logo - Responsive sizing */}
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <i className="bi bi-truck text-2xl sm:text-3xl text-indigo-600"></i>
+              <img 
+                src="/sa-logo.png" 
+                alt="Safaris Adventure Logo" 
+                className="h-10 w-10 sm:h-10 sm:w-10 lg:h-12 lg:w-12 object-contain"
+              />
               <div>
                 <div className="text-indigo-600 font-bold text-lg sm:text-xl lg:text-2xl leading-tight">SAFARIS ADVENTURE</div>
                 <div className="text-xs sm:text-sm text-gray-600 hidden sm:block">Road Services Anywhere, Anytime</div>
@@ -377,7 +379,7 @@ ${name}`;
                     servicesSection.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="bg-indigo-600 hover:bg-indigo-700 text-white px-3 lg:px-4 py-2 rounded-lg font-medium transition-colors text-sm"
+                className="bg-indigo-600 disabled:cursor-not-allowed hover:bg-indigo-700 text-white px-3 lg:px-4 py-2 rounded-lg font-medium transition-colors text-sm"
               >
                 Book Now
               </button>
@@ -407,7 +409,7 @@ ${name}`;
                       servicesSection.scrollIntoView({ behavior: 'smooth' });
                     }
                   }}
-                  className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-lg font-medium"
+                  className="block w-full disabled:cursor-not-allowed bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-lg font-medium"
                 >
                   Book Now
                 </button>
@@ -722,7 +724,7 @@ ${name}`;
           <p className="text-base sm:text-lg lg:text-xl max-w-3xl mx-auto mb-6 sm:mb-8 text-indigo-100 px-4">
             Get in touch with us today for a quote or to make a reservation. We&apos;re here to serve you 24/7.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 lg:space-x-6 max-w-2xl mx-auto">
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 max-w-2xl mx-auto">
             <a
               href="https://wa.me/254780253855"
               target="_blank"
@@ -731,12 +733,20 @@ ${name}`;
               <i className="bi bi-whatsapp text-lg sm:text-xl"></i>
               <span className="whitespace-nowrap">WhatsApp: 0780253855</span>
             </a>
+            
+            <div className="flex items-center justify-center mx-4 sm:mx-6 lg:mx-8">
+              <span className="w-8 h-8 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center text-sm font-medium">
+                or
+              </span>
+            </div>
+            
             <a
-              href="tel:+254702308649"
-              className="bg-blue-500 hover:bg-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-medium text-base sm:text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center justify-center space-x-2"
+              href="https://wa.me/254785840257"
+              target="_blank"
+              className="bg-green-500 hover:bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-medium text-base sm:text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center justify-center space-x-2"
             >
-              <i className="bi bi-telephone-fill text-lg sm:text-xl"></i>
-              <span className="whitespace-nowrap">Call: 0702308649</span>
+              <i className="bi bi-whatsapp text-lg sm:text-xl"></i>
+              <span className="whitespace-nowrap">WhatsApp: 0785840257</span>
             </a>
           </div>
         </div>
@@ -748,7 +758,6 @@ ${name}`;
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8">
             <div className="sm:col-span-2 lg:col-span-2">
               <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
-                <i className="bi bi-truck text-2xl sm:text-3xl text-indigo-400"></i>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-indigo-400">SAFARIS ADVENTURES</h3>
                   <p className="text-gray-400 text-sm sm:text-base">Road Services Anywhere, Anytime</p>
@@ -788,7 +797,7 @@ ${name}`;
                   <i className="bi bi-telephone-fill text-indigo-400 mt-1 flex-shrink-0"></i>
                   <div className="text-gray-400 text-sm sm:text-base">
                     <div>0702308649</div>
-                    <div>0780253855</div>
+                    <div>0716571952</div>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
