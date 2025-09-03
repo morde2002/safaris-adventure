@@ -764,14 +764,14 @@ ${name}`;
                 We are the best road servers anywhere anytime. Customer comfort and demand is our priority. Professional transportation services for all your needs.
               </p>
               <div className="flex space-x-4">
-                <a href="https://wa.me/254780253855" target="_blank" className="text-green-400 hover:text-green-300 transition-colors">
-                  <i className="bi bi-whatsapp text-xl sm:text-2xl"></i>
+                <a href="https://instagram.com/safarisadventure" target="_blank" className="text-pink-400 hover:text-pink-300 transition-colors">
+                  <i className="bi bi-instagram text-xl sm:text-2xl"></i>
                 </a>
-                <a href="tel:+254702308649" className="text-blue-400 hover:text-blue-300 transition-colors">
-                  <i className="bi bi-telephone-fill text-xl sm:text-2xl"></i>
+                <a href="https://facebook.com/safarisadventure" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  <i className="bi bi-facebook text-xl sm:text-2xl"></i>
                 </a>
-                <a href="mailto:safarisadventure03@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
-                  <i className="bi bi-envelope-fill text-xl sm:text-2xl"></i>
+                <a href="https://tiktok.com/@safarisadventure" target="_blank" className="text-red-400 hover:text-red-300 transition-colors">
+                  <i className="bi bi-tiktok text-xl sm:text-2xl"></i>
                 </a>
               </div>
             </div>
@@ -793,28 +793,44 @@ ${name}`;
                 <li className="flex items-start space-x-3">
                   <i className="bi bi-telephone-fill text-indigo-400 mt-1 flex-shrink-0"></i>
                   <div className="text-gray-400 text-sm sm:text-base">
-                    <div>0702308649</div>
-                    <div>0716571952</div>
+                    <div><a href="tel:+254702308649" className="hover:text-white transition-colors">0702308649</a></div>
+                    <div><a href="tel:+254716571952" className="hover:text-white transition-colors">0716571952</a></div>
                   </div>
                 </li>
                 <li className="flex items-start space-x-3">
                   <i className="bi bi-envelope-fill text-indigo-400 mt-1 flex-shrink-0"></i>
-                  <span className="text-gray-400 text-sm sm:text-base break-all">safarisadventure03@gmail.com</span>
+                  <a href="mailto:safarisadventure03@gmail.com" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base break-all">
+                    safarisadventure03@gmail.com
+                  </a>
                 </li>
                 <li className="flex items-start space-x-3">
                   <i className="bi bi-whatsapp text-indigo-400 mt-1 flex-shrink-0"></i>
-                  <span className="text-gray-400 text-sm sm:text-base">WhatsApp Available 24/7</span>
+                  <a href="https://wa.me/254780253855" target="_blank" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base">
+                    WhatsApp Available 24/7
+                  </a>
                 </li>
                 <li className="flex items-start space-x-3">
                   <i className="bi bi-geo-alt-fill text-indigo-400 mt-1 flex-shrink-0"></i>
-                  <span className="text-gray-400 text-sm sm:text-base">Nairobi, Kenya</span>
+                  <a href="https://maps.google.com/maps?q=Nairobi,+Kenya" target="_blank" className="text-gray-400 hover:text-white transition-colors text-sm sm:text-base">
+                    Nairobi, Kenya
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-gray-400">
-            <p className="text-xs sm:text-sm">&copy; {new Date().getFullYear()} Safaris Adventure. All rights reserved. | Designed by Xelerated Tech</p>
+            <p className="text-xs sm:text-sm">
+              &copy; {new Date().getFullYear()} Safaris Adventure. All rights reserved. | Designed by{' '}
+              <a 
+                href="https://xeleratedtech.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-indigo-400 hover:text-indigo-300 transition-colors"
+              >
+                Xelerated Tech
+              </a>
+            </p>
           </div>
         </div>
       </footer>
