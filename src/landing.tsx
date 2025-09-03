@@ -334,16 +334,12 @@ ${name}`;
         <div className="container mx-auto px-3 sm:px-4 lg:px-6 py-3 sm:py-4">
           <div className="flex items-center justify-between">
             {/* Logo - Responsive sizing */}
-            <div className="flex items-center space-x-2 sm:space-x-3">
+            <div className="flex items-center">
               <img 
-                src="/sa-logo.png" 
+                src="/logo1.png" 
                 alt="Safaris Adventure Logo" 
-                className="h-10 w-10 sm:h-10 sm:w-10 lg:h-12 lg:w-12 object-contain"
+                className="h-12 w-auto sm:h-14 sm:w-auto lg:h-16 lg:w-auto object-contain"
               />
-              <div>
-                <div className="text-indigo-600 font-bold text-lg sm:text-xl lg:text-2xl leading-tight">SAFARIS ADVENTURE</div>
-                <div className="text-xs sm:text-sm text-gray-600 hidden sm:block">Road Services Anywhere, Anytime</div>
-              </div>
             </div>
             
             {/* Mobile menu button */}
@@ -757,11 +753,12 @@ ${name}`;
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8">
             <div className="sm:col-span-2 lg:col-span-2">
-              <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-indigo-400">SAFARIS ADVENTURES</h3>
-                  <p className="text-gray-400 text-sm sm:text-base">Road Services Anywhere, Anytime</p>
-                </div>
+              <div className="mb-4 sm:mb-6">
+                <img 
+                  src="/logo2.png" 
+                  alt="Company Logo" 
+                  className="h-24 w-auto sm:h-20 sm:w-auto object-contain mb-4"
+                />
               </div>
               <p className="text-gray-400 mb-4 sm:mb-6 max-w-md text-sm sm:text-base">
                 We are the best road servers anywhere anytime. Customer comfort and demand is our priority. Professional transportation services for all your needs.
